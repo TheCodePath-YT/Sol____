@@ -1,0 +1,11 @@
+import express from 'express';
+import PostController from './post.controller.js';
+import { upload } from '../../middlewares/fileupload.middleware.js';
+const PostRouter = express.Router();
+PostRouter.post('/', upload.single("image"),PostController.createPost);
+PostRouter.get('/all',PostController.getAllPosts);
+PostRouter.get('/:id',PostController.getSpecificPosts);
+PostRouter.get('/',PostController.getPostByUserID);
+PostRouter.delete('/:id',PostController.deletePost);
+PostRouter.put('/:id',upload.single("image"),PostController.updatePosts);
+export default PostRouter;

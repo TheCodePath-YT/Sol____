@@ -1,0 +1,10 @@
+{"level":"error","message":"TimeStamp: Sun Jan 12 2025 03:12:09 GMT+0530 (India Standard Time) req URL: /api/signup error msg: Invalid data","service":"user-service"}
+{"level":"error","message":"TimeStamp: Sun Jan 12 2025 03:12:50 GMT+0530 (India Standard Time) req URL: /api/posts error msg: Cannot read properties of undefined (reading 'filename')","service":"user-service"}
+{"level":"error","message":"TimeStamp: Sun Jan 12 2025 03:12:56 GMT+0530 (India Standard Time) req URL: /api/posts error msg: All fields are required","service":"user-service"}
+{"level":"error","message":"TimeStamp: Sun Jan 12 2025 03:13:01 GMT+0530 (India Standard Time) req URL: /api/posts error msg: All fields are required","service":"user-service"}
+{"level":"error","message":"TimeStamp: Sun Jan 12 2025 03:13:03 GMT+0530 (India Standard Time) req URL: /api/posts error msg: All fields are required","service":"user-service"}
+{"level":"error","message":"TimeStamp: Sun Jan 12 2025 03:15:02 GMT+0530 (India Standard Time) req URL: /api/posts/all error msg: Unauthorized","service":"user-service"}
+{"level":"error","message":"TimeStamp: Sun Jan 12 2025 03:15:28 GMT+0530 (India Standard Time) req URL: /api/posts/ error msg: Unauthorized","service":"user-service"}
+{"level":"error","message":"TimeStamp: Sun Jan 12 2025 03:15:57 GMT+0530 (India Standard Time) req URL: /api/comments/1 error msg: Unauthorized","service":"user-service"}
+{"level":"error","message":"TimeStamp: Sun Jan 12 2025 03:16:07 GMT+0530 (India Standard Time) req URL: /api/comments/1 error msg: Unauthorized","service":"user-service"}
+{"level":"error","message":"TimeStamp: Sun Jan 12 2025 03:16:14 GMT+0530 (India Standard Time) req URL: /api/comments/1 error msg: Unauthorized","service":"user-service"}
